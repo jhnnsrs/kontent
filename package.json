@@ -1,0 +1,43 @@
+{
+  "name": "kontent",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "@jhnnsrs/arkitekt": "0.0.6",
+    "@jhnnsrs/datalayer": "^0.0.4",
+    "@jhnnsrs/unkover": "^0.0.7",
+    "@types/colormap": "^2.3.1",
+    "@types/debounce": "^1.2.1",
+    "@types/node": "^18.15.0",
+    "apollo-upload-client": "^17.0.0",
+    "aws4fetch": "^1.0.17",
+    "colormap": "^2.3.2",
+    "debounce": "^1.2.1",
+    "graphql": "^16.6.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "subscriptions-transport-ws": "^0.11.0",
+    "threads": "^1.7.0",
+    "zarr": "^0.6.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
